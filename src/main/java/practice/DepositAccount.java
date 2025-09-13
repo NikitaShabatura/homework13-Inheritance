@@ -6,7 +6,7 @@ public class DepositAccount extends BankAccount {
 
     //можно снимать деньги через месяц после последнего пополнения
 
-    LocalDate lastIncome;
+    private LocalDate lastIncome;
 
     @Override
     public void put(double amountToPut) {
